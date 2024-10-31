@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "GiveSwish\\": "src/"
+        }
+    },
+    "require": {
+        "olssonm/swish-php": "^1.0"
+    }
+}

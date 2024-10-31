@@ -1,0 +1,42 @@
+/**
+* Swish Front Styles 
+* @package GiveSwish
+* @since 1.0.0
+* @author Proloy Bhaduri<support@proloybhaduri.com>
+*/
+
+div.give-swish-phone-number{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.give-swish-phone-number input[type="tel"]{
+    /* material like input */
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin: 0 10px;
+    width: 100%;
+    min-width: 300px;
+    max-width:400px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    background: transparent;
+    outline: none;
+
+}
+
+@media( max-width:600px){
+    div.give-swish-phone-number input[type="tel"]{
+        min-width: unset;
+        max-width: 300px;
+    }
+    .sgp-form-container h3{
+        font-size: 0.9em!important;
+    }
+}
+
